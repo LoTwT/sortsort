@@ -9,6 +9,8 @@
   "scripts": {
     "dev": "pnpm -C packages/sortsort dev",
     "build": "pnpm -C packages/sortsort build",
+    "docs:dev": "pnpm -C docs dev",
+    "docs:build": "pnpm -C docs build",
     "lint": "eslint .",
     "prepare": "simple-git-hooks",
     "prettier": "prettier --write .",
