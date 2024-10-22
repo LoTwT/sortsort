@@ -1,12 +1,14 @@
 {
   "name": "sortsort-monorepo",
   "type": "module",
+  "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@9.12.2",
-  "description": "sortsort",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "pnpm -C packages/sortsort dev",
+    "build": "pnpm -C packages/sortsort build",
     "lint": "eslint .",
     "prepare": "simple-git-hooks",
     "prettier": "prettier --write .",
