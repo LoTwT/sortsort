@@ -1,17 +1,17 @@
 {
-  "name": "sort-sort",
+  "name": "sortsort",
   "type": "module",
   "version": "0.0.0",
-  "description": "sort-sort",
+  "description": "sortsort",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/LoTwT/sort-sort#readme",
+  "homepage": "https://github.com/LoTwT/sortsort#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LoTwT/sort-sort.git"
+    "url": "git+https://github.com/LoTwT/sortsort.git"
   },
   "bugs": {
-    "url": "https://github.com/LoTwT/sort-sort/issues"
+    "url": "https://github.com/LoTwT/sortsort/issues"
   },
   "keywords": [],
   "sideEffects": false,
@@ -39,8 +39,13 @@
     "dev": "vite build --watch",
     "build": "vite build"
   },
+  "dependencies": {
+    "sortablejs": "^1.15.3",
+    "vue": "^3.5.12"
+  },
   "devDependencies": {
     "@types/node": "^22.7.7",
+    "@types/sortablejs": "^1.15.8",
     "@vitejs/plugin-vue": "^5.1.4",
     "typescript": "^5.6.2",
     "unplugin-auto-import": "^0.18.3",
