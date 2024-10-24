@@ -1,5 +1,6 @@
 {
   "name": "docs",
+  "private": true,
   "scripts": {
     "dev": "histoire dev",
     "build": "histoire build",
